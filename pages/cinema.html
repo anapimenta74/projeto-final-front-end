@@ -15,7 +15,7 @@
     <!-- conteúdo aqui -->
     <!-- Cabeçalho principal: define o título da página de notícias de cinema para acessibilidade -->
     <header class="container-fluid py-4 bg-dark text-white text-center">
-        <h1>Cine News: Os Melhores do Cinema</h1>
+        <h1>News: Os Melhores do Cinema</h1>
     </header>
     
     <!-- Menu de Navegação: utilizando bootstrap para garantir responsividade e links -->
@@ -27,10 +27,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="../index.html">Home</a>
+                        <a class="nav-link" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="cinema.html">Cinema</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contatos</a>
@@ -45,21 +48,40 @@
         <section class="row">
             <!-- Notícia principal de cinema -->
             <article class="col-md-8">
-                <div class="card mb-4 shadow-sm">
-                     <div class="row g-0 align-items-center">
-                        <div class="col-md-4">
-                            <img src="../img/o-diabo-veste-prada-2.jpg"
-                            class="img-fluid rounded-start"
-                            style="height: 100%; min-height: 250px; width: 100%; object-fit: cover;"
-                            alt="Escultura gigante de um sapato vermelho de salto alto sobre uma base branca onde se lê O Diabo Veste Prada 2.">
-                        </div>
-                        <!-- Coluna do conteúdo -->
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <small class="text-muted fw-bold">Sucesso de bilheteria!</small>
-                                <h2 class="card-tittle h4 mt-2">O Diabo Veste Prada 2: supera o 1º filme na estreia</h2>
-                                <p class-="card-text">Com público majoritariamente feminino, o novo filme supera as expectativas do mercado.</p>
-                                <button class="btn btn-primary" onclick="exibirAlerta()">Ver mais detalhes</button>
+                <div class="card-mb-4 shadow-sm border-0">
+                    <div class="card-body">
+                        <!-- Títulos no topo -->
+                        <small class="text-dark fw-bold">Sucesso de bilheteria!</small>
+                        <h2 class="card-tittle h2 mt-2 fw-bold text-dark">O Diabo Veste Prada 2: supera o 1º filme na estreia</h2>
+                        <p class="lead text-dark">Com público majoritariamente feminino, o novo filme supera as expectativas do mercado.</p>
+
+                        <!-- Imagem grande abaixo do título e subtítulo -->
+                         <img src="../img/o-diabo-veste-prada-2.jpg"
+                              class="img-fluid rounded my-4 w-100"
+                              style="width: 100%; height: auto; object-fit: contain; background-color: #fff;"
+                              alt="Escultura gigante de um sapato vermelho de salto alto de tridente sobre uma base branca onde se lê O Diabo Veste Prada 2.">
+                    </div>
+                </div>
+                                <h3 class="h5 fw-bold mt-4">Qual a história do filme 'O Diabo Veste Prada 2'?</h3>
+                                <p class="text-dark">
+                                    Dirigido por <strong>David Frankel</strong>, a sequência retoma a história duas décadas depois,
+                                    com Andy Sachs agora como editora na revista <em>Runway</em>. O retorno dos personagens clássicos 
+                                    era o mais aguardado pelo público e ajudou a impulsionar o mercado, que arrecadou <strong>US$ 326 milhões globalmente</strong>.
+                                </p>
+
+                                <!-- Veja Também -->
+                                 <div class="row mt-5 border-top pt-3">
+                                    <h5 class="fw-bold mb-3">Veja também</h5>
+                                    <div class="col-md-4 border-end">
+                                        <p class="small fw-bold">Michael: estrelado por Jaafar Jackson, sobrinho de MJ, filme anima o público nos cinemas tocando os clássicos do Rei do Pop.</p>
+                                    </div>
+                                    <div class="col-md-4 border-end">
+                                        <p class="small fw-bold">Meme gerado por IA: Diretor de O Diabo Veste Prada 2 contratou artista humana para gerar meme usado no filme</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="small fw-bold">Conheça o termo 'Gore': estilo de terror focado no horror psicológico abordado no filme Maldição da Múmia</p>
+                                    </div>
+                                 </div>
                         </div>
                      </div>
                 </div>
@@ -67,9 +89,10 @@
 
             <!-- Barra lateral -->
              <aside class="col-md-4">
-                <div class="p-4 mb-3 bg-light rounded">
-                    <h4 class="fst-italic">Destaques</h4>
-                    <p class="mb-0">Confira os filmes mais comentados da semana.</p>
+                <div class="p-4 mb-3 bg-light rounded border">
+                    <h4 class="fw-bold mb-3">Destaques</h4>
+                    <p class="text-dark">Confira os filmes mais comentados da semana.</p>
+                    <button class="btn btn-primary w-100 mt-2" onclick="exibirAlerta()">Ver mais detalhes</button>
                 </div>
              </aside>
         </section>
