@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <tittle>Notícias de Cinema</tittle>
+
+    <!-- Link do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Link do CSS pessoal -->
+    <link rel="stylesheet" href="../css/cinema.css">
+</head>
+<body>
+    <!-- conteúdo aqui -->
+    <!-- Cabeçalho principal: define o título da página de notícias de cinema para acessibilidade -->
+    <header class="container-fluid py-4 bg-dark text-white text-center">
+        <h1>Cine News: Os Melhores do Cinema</h1>
+    </header>
+    
+    <!-- Menu de Navegação: utilizando bootstrap para garantir responsividade e links -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contatos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Principal de Notícias: Organizada em colunas para garantir responsividade -->
+    <main class="container my-5">
+        <section class="row">
+            <!-- Notícia principal de cinema -->
+            <article class="col-md-8">
+                <div class="card mb-4 shadow-sm">
+                     <div class="row g-0 align-items-center">
+                        <div class="col-md-4">
+                            <img src="../img/o-diabo-veste-prada-2.jpg"
+                            class="img-fluid rounded-start"
+                            style="height: 100%; min-height: 250px; width: 100%; object-fit: cover;"
+                            alt="Escultura gigante de um sapato vermelho de salto alto sobre uma base branca onde se lê O Diabo Veste Prada 2.">
+                        </div>
+                        <!-- Coluna do conteúdo -->
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <small class="text-muted fw-bold">Sucesso de bilheteria!</small>
+                                <h2 class="card-tittle h4 mt-2">O Diabo Veste Prada 2: supera o 1º filme na estreia</h2>
+                                <p class-="card-text">Com público majoritariamente feminino, o novo filme supera as expectativas do mercado.</p>
+                                <button class="btn btn-primary" onclick="exibirAlerta()">Ver mais detalhes</button>
+                        </div>
+                     </div>
+                </div>
+            </article>
+
+            <!-- Barra lateral -->
+             <aside class="col-md-4">
+                <div class="p-4 mb-3 bg-light rounded">
+                    <h4 class="fst-italic">Destaques</h4>
+                    <p class="mb-0">Confira os filmes mais comentados da semana.</p>
+                </div>
+             </aside>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5"
+        <p>&copy; 2026 Cine News. Todos os direitos reservados.</p>
+        </div>
+             <!-- Links redes sociais -->
+             <a href="#" class="text-white mx-2">Instagram</a>
+             <a href="#" class="text-white mx-2">Youtube</a>
+             <a href="#" class="text-white mx-2">LinkedIn</a>
+        </div>
+    </footer>
+
+    <!-- Início do VLibras -->
+    <div vw class="enabled">
+       <div vw-access-button class="active" ></div>
+       <div vw-plugin-wrapper>
+           <div class="vw-plugin-top-wrapper"></div>
+       </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!-- Fim do VLibras -->
+</body>
+</html>
