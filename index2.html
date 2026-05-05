@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notícias Serratec</title>
+    <!-- CSS do Bootstrap 5 -->
+    <link href="./css/bootstrap-grid.min.css" rel="stylesheet" />
+    <link href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Cabeçalho com Menu Responsivo -->
+    <header class="bg-dark text-white p-3 mb-4">
+      <div class="container">
+        <h1 class="h3">Portal Noticias</h1>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="row">
+        <!-- Coluna Principal: Notícias (Ocupa 8 de 12 colunas no desktop) -->
+        <section class="col-lg-8">
+          <!-- Slide Noticias -->
+          <article class="card mb-4">
+         
+            <section
+              class="carousel"
+              role="region"
+              aria-roledescription="carousel"
+              aria-label="Galeria de Imagens"
+            >
+              <div class="carousel-container">
+                <div class="carousel-slide" aria-live="polite">
+                  <img
+                    src="./img/Atari.webp"
+                    alt="Atari 2600"
+                    role="group"
+                    aria-roledescription="slide"
+                  />
+                  <img
+                    src="./img/odyssey.webp"
+                    alt="Odyssey 1 Primeiro Console"
+                    role="group"
+                    aria-roledescription="slide"
+                  />
+                  <img
+                    src="./img/PS2-Versions.jpg"
+                    alt="Playstation 2 "
+                    role="group"
+                    aria-roledescription="slide"
+                  />
+                </div>
+              </div>
+
+              <div class="carousel-controls">
+                <button id="prev" aria-label="Slide anterior" disabled>
+                  Anterior
+                </button>
+                <button id="next" aria-label="Próximo slide">Próximo</button>
+              </div>
+            </section>
+
+          </article>
+
+          <!-- Grid de Notícias Menores -->
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <article class="card h-100">
+                <div class="card-body">
+                  <h3 class="h5">Artigo 1</h3>
+                  <p class="card-text small">Breve descrição</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 mb-4">
+              <article class="card h-100">
+                <div class="card-body">
+                  <h3 class="h5">Artigo 2</h3>
+                  <p class="card-text small">Breve descrição</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 mb-4">
+              <article class="card h-100">
+                <div class="card-body">
+                  <h3 class="h5">Artigo 3</h3>
+                  <p class="card-text small">Breve descrição</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 mb-4">
+              <article class="card h-100">
+                <div class="card-body">
+                  <h3 class="h5">Artigo 4</h3>
+                  <p class="card-text small">Breve descrição</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 mb-4">
+              <article class="card h-100">
+                <div class="card-body">
+                  <h3 class="h5">Artigo 5</h3>
+                  <p class="card-text small">Breve descrição</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+      <p class="mb-0">
+        &copy; 2026 Portal Noticias - Todos os direitos reservados.
+      </p>
+    </footer>
+  </body>
+</html>
