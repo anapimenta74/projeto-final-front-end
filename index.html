@@ -7,50 +7,44 @@
     <!-- CSS do Bootstrap 5 -->
    
     <link href="./css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://jsdelivr.net">
-    <link href="./css/meuStyle.css" rel="stylesheet"/>
+    <link href="./css/card.css" rel="stylesheet"/>
     <link href="./css/sectionHeader.css" rel="stylesheet"/>
+    <link href="./css/style.css" rel="stylesheet"/>
 
    </head>
   <body>
-   <!-- Cabeçalho com Menu Responsivo -->
-   <!-- Cabeçalho principal: define o título da página de notícias de cinema para acessibilidade -->
+   <!-- Cabeçalho principal: define o título da página de notícias para acessibilidade -->
     <header class="container-fluid py-4 bg-dark text-white text-center">
         <h1>Portal de Noticias: Serratec</h1>
     </header>
         <!-- Menu de Navegação: utilizando bootstrap para garantir responsividade e links -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="../index.html">Home</a>
+                        <a class="nav-link active" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/about.html">Quem Somos</a>
+                        <a class="nav-link" href="../pages/about.html">Quem Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/contact.html">Contatos</a>
+                        <a class="nav-link" href="../pages/contact.html">Contatos</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-
-
-
-
     <main class="container mt-5 pt-3">
       <div class="row">
         <!-- Coluna Principal: Notícias (Ocupa 8 de 12 colunas no desktop) -->
         <section class="col-12">
           <!-- Slide Noticias -->
-          <article class="card mb-4">
-         
+        
             <section class="w-50 mx-auto">
 
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" role="region" aria-roledescription="carousel" aria-label="Notivias em destaque do site">
@@ -59,16 +53,18 @@
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Ir para o slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Ir para o slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Ir para o slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Ir para o slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Ir para o slide 5"></button>
 
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <a href="./pages/contact.html">
-      <img src="./img/Atari.webp" class="d-block w-100" alt="Imagem do Atari 2600 + Lançado em 2025">
+      <a href="./pages/artigoAna.html">
+      <img src="./img/populacaoBrasileira.webp" class="d-block w-100" alt="Imagem do Atari 2600 + Lançado em 2025">
       </a>
       <div class="carousel-caption d-none d-md-block">
-        <h5>Atari 2600 +</h5>
-        <p>Atari 2600 + do antigo ao "novo" Atari 2600.</p>
+        <h5>Ana</h5>
+        <p>Crescimento da população brasileira.</p>
       </div>
     </div>
     <div class="carousel-item">
@@ -76,8 +72,8 @@
       <img src="./img/Atari.webp" class="d-block w-100" alt="Imagem do Atari 2600 + Lançado em 2025">
       </a>
       <div class="carousel-caption d-none d-md-block">
-        <h5>Atari 2600 +</h5>
-        <p>Atari 2600 + do antigo ao "novo" Atari 2600.</p>
+        <h5>Kevin</h5>
+        <p>IA já está decidindo por você — e você nem percebeu.</p>
       </div>
     </div>
     <div class="carousel-item">
@@ -85,8 +81,26 @@
       <img src="./img/Atari.webp" class="d-block w-100" alt="Imagem do Atari 2600 + Lançado em 2025">
       <div class="carousel-caption d-none d-md-block">
         </a>
-        <h5>Atari 2600 +</h5>
-        <p>Atari 2600 + do antigo ao "novo" Atari 2600.</p>
+        <h5>Danielle</h5>
+        <p>Cinema.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <a href="./pages/contact.html">
+      <img src="./img/Atari.webp" class="d-block w-100" alt="Imagem do Atari 2600 + Lançado em 2025">
+      </a>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Luiz</h5>
+        <p>Musica.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+        <a href="./pages/artigoJuliano.html">
+      <img src="./img/Atari.webp" class="d-block w-100" alt="Imagem do Atari 2600 + Lançado em 2025">
+      <div class="carousel-caption d-none d-md-block">
+        </a>
+        <h5>Juliano</h5>
+        <p>Magnavox Odyssey: O Nascimento da Era dos Videogames.</p>
       </div>
     </div>
   </div>
@@ -99,11 +113,9 @@
     <span class="visually-hidden">Próximo Slide</span>
   </button>
 </div>
-              
-
  </section>
 
-       </article>
+
 
 
 <section class="section-header">
@@ -124,7 +136,7 @@
         <div class="news-card__image-wrapper">
             <img src="./img/Atari.webp" alt="Atari 2600" class="news-card__image">
             <!-- Modificador: news-card__category--tech -->
-            <span class="news-card__category news-card__category--tech">Tecnologia</span>
+            <span class="news-card__category news-card__category--tech">Tech</span>
         </div>
 
         <!-- Elemento: news-card__content -->
@@ -148,7 +160,7 @@
         <div class="news-card__image-wrapper">
             <img src="./img/Atari.webp" alt="Atari 2600" class="news-card__image">
             <!-- Modificador: news-card__category--tech -->
-            <span class="news-card__category news-card__category--tech">Tecnologia</span>
+            <span class="news-card__category news-card__category--tech">Música</span>
         </div>
 
         <!-- Elemento: news-card__content -->
@@ -171,7 +183,7 @@
         <div class="news-card__image-wrapper">
             <img src="./img/Atari.webp" alt="Atari 2600" class="news-card__image">
             <!-- Modificador: news-card__category--tech -->
-            <span class="news-card__category news-card__category--tech">Tecnologia</span>
+            <span class="news-card__category news-card__category--tech">Cinema</span>
         </div>
 
         <!-- Elemento: news-card__content -->
@@ -192,17 +204,17 @@
         
         <!-- Elemento: news-card__image-wrapper -->
         <div class="news-card__image-wrapper">
-            <img src="./img/Atari.webp" alt="Atari 2600" class="news-card__image">
+            <img src="./img/populacaoBrasileira2.webp" alt="Atari 2600" class="news-card__image">
             <!-- Modificador: news-card__category--tech -->
-            <span class="news-card__category news-card__category--tech">Tecnologia</span>
+            <span class="news-card__category news-card__category--tech">Sociedade</span>
         </div>
 
         <!-- Elemento: news-card__content -->
         <div class="news-card__content">
-            <h3 class="news-card__title">Atari 2600+</h3>
-            <p class="news-card__excerpt">Breve descrição do artigo para engajar o leitor.</p>
+            <h3 class="news-card__title">Crescimento da população brasileira</h3>
+            <p class="news-card__excerpt">Em 2026,a população brasileira continua crescendo, mas em um ritmo desacelerado, atingindo aproximadamente 213,4 milhões de habitantes, segundo estimativas do IBGE.</p>
             
-            <a href="./pages/noticia.html" class="news-card__link">Ler mais</a>
+            <a href="./pages/artigoAna.html" class="news-card__link">Ler mais</a>
         </div>
         
     </article>
@@ -217,7 +229,7 @@
         <div class="news-card__image-wrapper">
             <img src="./img/Atari.webp" alt="Atari 2600" class="news-card__image">
             <!-- Modificador: news-card__category--tech -->
-            <span class="news-card__category news-card__category--tech">Tecnologia</span>
+            <span class="news-card__category news-card__category--tech">Games</span>
         </div>
 
         <!-- Elemento: news-card__content -->
@@ -237,7 +249,7 @@
       </div>
     </main>
 
- <footer class="bg-dark text-white text-center py-4 mt-auto fixed-bottom" >
+ <footer class="bg-dark text-white text-center py-4 mt-auto" >
     <div class="container">
         <p>&copy; 2026 Portal de Noticias. Todos os direitos reservados.</p>
         <div class="redes-sociais">

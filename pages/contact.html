@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notícias Serratec</title>
+    <!-- CSS do Bootstrap 5 -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/card.css" rel="stylesheet"/>
+    <link href="../css/sectionHeader.css" rel="stylesheet"/>
+    <link href="../css/style.css" rel="stylesheet"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+   </head>
+  <body>
+   <!-- Cabeçalho principal: define o título da página de notícias para acessibilidade -->
+    <header class="container-fluid py-4 bg-dark text-white text-center">
+        <h1>Portal de Noticias: Serratec</h1>
+    </header>
+        <!-- Menu de Navegação: utilizando bootstrap para garantir responsividade e links -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contatos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="l-page__content container mt-5">
+      <!-- Centraliza o formulário e limita a largura em telas grandes -->
+      <section class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+          <div class="card shadow-sm">
+            <div class="card-header bg-secondary text-white text-center">
+              <h2 class="h4 mb-0">Contato</h2>
+            </div>
+
+            <div class="card-body p-4">
+              <div class="text-center mb-5">
+                <h3 class="fw-bold">Queremos ouvir você!</h3>
+                <p class="text-muted mx-auto" style="max-width: 600px">
+                  Utilize o espaço abaixo para enviar suas dúvidas ou sugestões.
+                  Sua participação ajuda a construir um jornalismo mais próximo
+                  da nossa comunidade.
+                </p>
+              </div>
+
+              <form id="contatoForm" novalidate>
+                <!-- Campo Título -->
+                <div class="mb-3">
+                  <label for="titulo" class="form-label"
+                    >Título da Mensagem</label
+                  >
+                  <input
+                    type="text"
+                    id="titulo"
+                    name="title"
+                    class="form-control"
+                    placeholder="Assunto da mensagem"
+                    aria-describedby="erro-titulo"
+                  />
+                  <div
+                    id="erro-titulo"
+                    class="erro-texto text-danger small"
+                    aria-live="polite"
+                  ></div>
+                </div>
+
+                <!-- Campo Email -->
+                <div class="mb-3">
+                  <label for="email" class="form-label">Seu E-mail</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="reply_to"
+                    class="form-control"
+                    placeholder="nome@exemplo.com"
+                    aria-describedby="erro-email"
+                  />
+                  <div
+                    id="erro-email"
+                    class="erro-texto text-danger small"
+                    aria-live="polite"
+                  ></div>
+                </div>
+
+                <!-- Campo Mensagem -->
+                <div class="mb-3">
+                  <label for="mensagem" class="form-label">Mensagem</label>
+                  <textarea
+                    id="mensagem"
+                    name="message"
+                    class="form-control"
+                    rows="5"
+                    placeholder="Digite sua mensagem aqui..."
+                    aria-describedby="erro-mensagem"
+                  ></textarea>
+                  <div
+                    id="erro-mensagem"
+                    class="erro-texto text-danger small"
+                    aria-live="polite"
+                  ></div>
+                </div>
+
+                <!-- Mensagem de Sucesso/Erro -->
+                <div
+                  id="msg-sucesso"
+                  class="mb-3"
+                  role="status"
+                  aria-live="polite"
+                ></div>
+
+                <!-- Botão Enviar -->
+                <div class="d-grid">
+                  <button type="submit" class="btn btn-primary btn-lg">
+                    Enviar Email
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="l-page__footer bg-dark text-white text-center py-4">
+      <div class="container">
+        <p>&copy; 2026 Portal de Noticias. Todos os direitos reservados.</p>
+        <div class="redes-sociais">
+          <a href="#" class="text-white mx-2">Instagram</a>
+          <a href="#" class="text-white mx-2">Youtube</a>
+          <a href="#" class="text-white mx-2">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+ <!-- Scripts para APi de envio do email-->
+    <script type="text/javascript">
+        (function() {
+            emailjs.init({
+                publicKey: "CC599ZW0JnAXbVmSE",
+            });
+        })();
+    </script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/scriptContact.js"></script>
+  </body>
+</html>
