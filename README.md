@@ -17,6 +17,9 @@ O objetivo foi aplicar, na prática, os conhecimentos adquiridos na disciplina d
 
 O projeto foi desenvolvido de forma colaborativa, com organização e comunicação através do Discord.
 
+Link: https://portalnoticiaspetropolis.netlify.app/
+
+
 ---
 
 ## 📚 Índice
