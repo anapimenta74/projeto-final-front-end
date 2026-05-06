@@ -12,7 +12,7 @@
     <link href="../css/style.css" rel="stylesheet"/>
 
    </head>
-  <body>
+<body class="d-flex flex-column min-vh-100">
    <!-- Cabeçalho principal: define o título da página de notícias para acessibilidade -->
     <header class="container-fluid py-4 bg-dark text-white text-center">
         <h1>Portal de Noticias: Serratec</h1>
@@ -40,13 +40,84 @@
     </nav>
 
 
-    <main class="container mt-5 pt-3">
+<main class="flex-fill container mt-5 pt-3">
+    <!-- Seção de Introdução -->
+    <section class="text-center mb-5">
+        <h2 class="display-4">Sobre o Projeto</h2>
+        <p class="lead mx-auto" style="max-width: 800px;">
+            Este portal de notícias foi desenvolvido como projeto final da disciplina de <strong>Front-End Essencial</strong>. 
+            Utilizamos tecnologias como HTML5, CSS3 e JavaScript, integradas ao framework Bootstrap para garantir uma experiência responsiva. 
+            O trabalho foi realizado de forma colaborativa pelo <strong>Grupo 7</strong>, com foco em versionamento via Git/GitHub e comunicação via Discord.
+        </p>
+    </section>
 
-        Aqui entra dados sobre o grupo
-      
-    </main>
+    <section class="section-header mb-4">
+        <h2 class="section-header__title">Nossa Equipe</h2>
+        <span class="section-header__line"></span>
+    </section>
 
- <footer class="bg-dark text-white text-center py-4 mt-auto fixed-bottom" >
+    <!-- Grid de Membros -->
+    <div class="row g-4 justify-content-center mb-5">
+        
+        <!-- Membro 1: Ana Paula -->
+        <div class="col-12 col-sm-6 col-lg-4 text-center">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="p-4">
+                    <img src="../img/ana.webp" alt="Foto de Ana Paula" class="rounded-circle img-fluid mb-3" style="width: 150px; height: 150px; object-fit: cover;">
+                    <h4>Ana Paula</h4>
+                    <p class="text-muted">Desenvolvedora Front-End</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Membro 2: Danielle -->
+        <div class="col-12 col-sm-6 col-lg-4 text-center">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="p-4">
+                    <img src="../img/danielle.webp" alt="Foto de Danielle" class="rounded-circle img-fluid mb-3" style="width: 150px; height: 150px; object-fit: cover;">
+                    <h4>Danielle</h4>
+                    <p class="text-muted">Desenvolvedora Front-End</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Membro 3: Juliano -->
+        <div class="col-12 col-sm-6 col-lg-4 text-center">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="p-4">
+                    <img src="../img/juliano.webp" alt="Foto de Juliano" class="rounded-circle img-fluid mb-3" style="width: 150px; height: 150px; object-fit: cover;">
+                    <h4>Juliano</h4>
+                    <p class="text-muted">Desenvolvedor Front-End</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Membro 4: Kevin -->
+        <div class="col-12 col-sm-6 col-lg-4 text-center">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="p-4">
+                    <img src="../img/kevin.webp" alt="Foto de Kevin" class="rounded-circle img-fluid mb-3" style="width: 150px; height: 150px; object-fit: cover;">
+                    <h4>Kevin</h4>
+                    <p class="text-muted">Desenvolvedor Front-End</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Membro 5: Luiz Antônio -->
+        <div class="col-12 col-sm-6 col-lg-4 text-center">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="p-4">
+                    <img src="../img/luiz.webp" alt="Foto de Luiz Antônio" class="rounded-circle img-fluid mb-3" style="width: 150px; height: 150px; object-fit: cover;">
+                    <h4>Luiz Antônio</h4>
+                    <p class="text-muted">Desenvolvedor Front-End</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+<footer class="bg-dark text-white text-center py-4 mt-auto">
     <div class="container">
         <p>&copy; 2026 Portal de Noticias. Todos os direitos reservados.</p>
         <div class="redes-sociais">
