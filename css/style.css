@@ -6,11 +6,21 @@
   box-sizing: border-box;
 }
 
-.inicio-pagina {
+body {
   font-size: large;
   font-family: "JetBrains Mono", monospace;
   display: flex;
   justify-content: center;
   background-color:#CCEEFF;
   padding: 10px 0;
+}
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6); /* Fundo preto com 60% de transparência */
+    border-radius: 10px;           /* Arredonda os cantos */
+    padding: 15px;                 /* Dá um respiro para o texto */
+    bottom: 20px;                  /* Garante que não cole no rodapé */
+}
+.carousel-caption h5, .carousel-caption p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    color: white !important; /* Garante que o texto seja branco */
 }
