@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+header {
+    background-color: #5b7db1;
+    padding: 15px;
+}
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: nome;
+    font-weight: bold;
+}
+nav a:hover {
+ text-decoration: underline;
+}
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+.noticia {
+    background-color: white;
+    padding: 20px;
+    flex: 3;
+    border-radius: 10px;
+}
+.categoria {
+    color: gray
+    font-size: 14px;
+    }
+.noticia h1 {
+    Margin-top: 5px;
+}
+.descricao {
+    color: #555;
+}
+.noticia img {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.destaque {
+    background-color: white;
+    padding: 20px;
+    flex: 1;
+    border-radius: 10px;
+    height: fit-content;
+}
+.destaque h3 {
+    margin-top: 0;
+}
+
+.destaque button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #2d8cff;
+    color: white;
+    border: nome;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.destaque button:hover {
+    background-color: #1c6ed5;
+}
+    
+     
+    
+
