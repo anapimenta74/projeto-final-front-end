@@ -112,7 +112,7 @@ Abra o arquivo `index.html` diretamente no navegador.
 │   └── populacao.html
 │
 ├── css/
-│   ├── style.css
+│   ├── bootstrap-grid.min.css
 │   └── style.css
 │
 ├── js/
@@ -152,15 +152,15 @@ Projeto desenvolvido de forma colaborativa, com contribuições registradas atra
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/kevinsantosgoncalves">
-        <img src="https://avatars.githubusercontent.com/kevinsantosgoncalves" width="90"/><br>
+      <a href="https://github.com/kevinsgoncalves">
+        <img src="https://avatars.githubusercontent.com/kevinsgoncalves" width="90"/><br>
         <sub><b>Kevin Gonçalves</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/coquinhobatera">
         <img src="https://avatars.githubusercontent.com/coquinhobatera" width="90"/><br>
-        <sub><b>Coquinhobatera</b></sub>
+        <sub><b>Luis Antonio</b></sub>
       </a>
     </td>
   </tr>
