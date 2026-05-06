@@ -1,0 +1,44 @@
+/* Bloco principal */
+.bio {
+  display: flex;
+  align-items: flex-start; /* Alinha o topo da imagem com o topo do texto */
+  gap: 20px;               /* Espaçamento entre a imagem e o texto */
+}
+
+/* Elemento da imagem */
+.bio__container-img {
+  flex-shrink: 0;          /* Impede que a imagem esmague se o texto for grande */
+}
+
+.bio__img {
+  max-width: 200px;        /* Ajuste o tamanho conforme necessário */
+  height: auto;
+  display: block;
+}
+
+/* Elemento do texto */
+.bio__text {
+  margin: 0;              
+  text-align: justify;
+}
+/* Bloco da lista */
+.destaqueTexto {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+/* O texto que deve ficar em negrito */
+.destaqueTexto__label {
+    font-weight: bold;
+    display: inline; /* Garante que fique na mesma linha do texto */
+}
+
+.video-container {
+        max-width: 800px;
+        margin: 20px auto;
+    }
+    iframe {
+        width: 100%;
+        height: 450px;
+        border: none;
+    }
