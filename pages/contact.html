@@ -12,7 +12,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
    </head>
-  <body>
+  <body class="d-flex flex-column min-vh-100">
    <!-- Cabeçalho principal: define o título da página de notícias para acessibilidade -->
     <header class="container-fluid py-4 bg-dark text-white text-center">
         <h1>Portal de Noticias: Serratec</h1>
@@ -39,7 +39,7 @@
         </div>
     </nav>
 
-    <main class="l-page__content container mt-5">
+    <main class="flex-fill container mt-5 pt-3">
       <!-- Centraliza o formulário e limita a largura em telas grandes -->
       <section class="row justify-content-center">
         <div class="col-md-8 col-lg-6">
@@ -134,9 +134,14 @@
           </div>
         </div>
       </section>
+
+      <!-- Botão Voltar -->
+          <div class="mt-5">
+            <a href="../index.html" class="btn btn-outline-dark">← Voltar para a Home</a>
+          </div>
     </main>
 
-    <footer class="l-page__footer bg-dark text-white text-center py-4">
+    <footer class="bg-dark text-white text-center py-4 mt-auto">
       <div class="container">
         <p>&copy; 2026 Portal de Noticias. Todos os direitos reservados.</p>
         <div class="redes-sociais">
