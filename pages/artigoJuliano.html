@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal de Notícias</title>
+    <!-- CSS do Bootstrap 5 -->
+   
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/meuStyle.css" rel="stylesheet"/>
+    <link href="../css/sectionHeader.css" rel="stylesheet"/>
+    <link href="../css/style.css" rel="stylesheet"/>
+    <link href="../css/noticiaStyle.css" rel="stylesheet"/>
+
+   </head>
+  <body class="d-flex flex-column min-vh-100">
+   <!-- Cabeçalho com Menu Responsivo -->
+   <!-- Cabeçalho principal: define o título da página de notícias de cinema para acessibilidade -->
+    <header class="container-fluid py-4 bg-dark text-white text-center">
+        <h1>Portal de Notícias</h1>
+    </header>
+        <!-- Menu de Navegação: utilizando bootstrap para garantir responsividade e links -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contatos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Conteúdo da noticia -->
+    <main class="flex-fill container mt-5 pt-3">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+      
+
+          <!-- Título e Subtítulo -->
+          <header class="mb-4">
+            <h1 class="fw-bold">
+              Magnavox Odyssey: O Nascimento da Era dos Videogames
+            </h1>
+            <p class="text-muted fs-5">
+              Onde Tudo Começou: A Saga de Ralph Baer e o Primeiro Console do
+              Mundo.
+            </p>
+            <hr />
+            <div class="d-flex justify-content-between align-items-center">
+              <small class="text-secondary"
+                >Por: Juliano Coelho | 05 de Maio de 2026</small
+              >
+              <span class="badge bg-primary">Games</span>
+            </div>         
+          </header>
+
+          <!-- Imagem de Destaque -->
+          <img
+            src="../img/odysseyMagnavox.jpg"
+            class="img-fluid rounded mb-4 w-100"
+            alt="Video game Odyssey da Magnavox - o primeiro video game comercial"
+          />
+
+          <!-- Texto da Notícia -->
+          <article class="article-content">
+            <p>
+              O <strong>Magnavox Odyssey</strong> não é apenas um console antigo; ele é a "pedra
+              fundamental" da indústria de jogos eletrônicos. Lançado em 1972,
+              ele transformou a televisão de um receptor passivo em uma
+              plataforma interativa.
+            </p>
+
+            <h2 class="mt-4">1. O Visionário: Ralph Baer</h2>
+
+            <section class="bio">
+              <div class="bio__container-img">
+                <img
+                  class="bio__img"
+                  src="../img/paiVideoGame.jpeg"
+                  alt="Foto de Ralph Baer com o braço sobre a caixo do videogame"
+                />
+              </div>
+
+              <p class="bio__text">
+                Conhecido como o "Pai dos Videogames",<strong>Ralph Baer</strong> era um
+                engenheiro da Sanders Associates que, já nos anos 60, defendia
+                que as televisões deveriam servir para algo mais do que apenas
+                assistir a canais abertos. Em 1966, ele desenvolveu o protótipo
+                <strong>"Brown Box"</strong>, que permitia jogar games simples como pingue-pongue
+                e futebol. Após várias tentativas de licenciamento, a Magnavox
+                comprou a ideia, refinando o design para o que viria a ser o
+                Odyssey.
+              </p>
+               <div class="bio__container-img">
+                <img
+                  class="bio__img"
+                  src="../img/BROWN-BOX_20160501.JPG"
+                  alt="Foto do protótipo do Brown Box"
+                />
+                <strong>Protótipo Brown Box</strong>
+              </div>
+            </section>
+            <blockquote
+              class="blockquote border-start border-4 ps-4 my-4 italic"
+            >
+              <p>
+                "Quando você construía televisores, tinha todo esse equipamento
+                de teste. E você tinha todas essas linhas e quadrados na tela
+                para testá-lo. Então me ocorreu que poderia ser divertido para
+                as pessoas controlarem as linhas e quadrados na tela."
+              </p>
+            </blockquote>
+            <!-- Parte 2 -->
+            <h2 class="mt-4">2. O Console e sua Tecnologia</h2>
+
+            <p class="bio__text">
+             Diferente dos consoles modernos, o Odyssey era um sistema <strong>analógico</strong> e extremamente rudimentar:
+            </p>
+                 <!-- Imagem de Destaque -->
+    
+
+             <ul class="destaqueTexto">
+                    <li class="destaqueTexto__item"><span class="destaqueTexto__label">Sem Som:</span> O console era totalmente silencioso.</li>
+                    <li class="destaqueTexto__item"><span class="destaqueTexto__label">Sem Cor:</span> O hardware gerava apenas quadrados brancos em um fundo preto. Para simular cores e cenários, os jogadores colavam <strong>películas plásticas (overlays)</strong> na tela da TV.</li>
+                  
+
+                    <div class="row g-3 mt-4">
+                    <div class="col-md-6">
+                        <img src="../img/imagemJogo.png" class="img-fluid rounded mb-4 w-100" alt="Imagem do jogo de tennis"/>
+                       <figcaption class="figure-caption mt-2">Imagem real do jogo em uma TV de tubo.</figcaption>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="../img/consoleOdysseyDetalhe.jpg" class="img-fluid rounded shadow-sm" alt="Cartões de jogo, fichas para o jogo roleta, cards para os jogos e placar para pontuação">
+                        <figcaption class="figure-caption mt-2">Cartões de circuito e acessórios.</figcaption>
+                    </div>
+                   </div>
+                    <li class="destaqueTexto__item"><span class="destaqueTexto__label">Cartões de Circuito:</span> Ele utilizava cartões que pareciam cartuchos, mas não continham software. Eles serviam apenas como "jumpers" que alteravam os circuitos internos para mudar o comportamento dos pontos na tela.</li> 
+                    <li class="destaqueTexto__item"><span class="destaqueTexto__label">Acessórios:</span> O console vinha acompanhado de fichas, dados e dinheiro de brinquedo para ajudar a marcar a pontuação, já que o aparelho não tinha memória para isso.</li>
+                </ul>
+           
+                <!-- Container das Imagens -->
+                <div class="row g-3 mt-4">
+                    <div class="col-md-4">
+                        <img src="../img/overlayer.jpg" class="img-fluid rounded shadow-sm" alt="Overlayer de 'plástico' transparente, utilizado sobre a tela da TV para simular o campo de jogo">
+                        <figcaption class="figure-caption mt-2">Películas plásticas (overlays).</figcaption>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="../img/acessoriosOdyssey.jpg" class="img-fluid rounded shadow-sm" alt="Cartões de jogo, fichas para o jogo roleta, cards para os jogos e placar para pontuação">
+                        <figcaption class="figure-caption mt-2">Cartões de circuito e acessórios.</figcaption>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="../img/joystickOdyssey.jpg" class="img-fluid rounded shadow-sm" alt="Joystick amarelado pelo tempo">
+                        <figcaption class="figure-caption mt-2">Joystick utilizada potênciometro.</figcaption>
+                    </div>
+                </div>
+
+            <!-- Parte 3 -->
+            <h2 class="mt-4">
+              3. O Odyssey no Brasil: O Pioneirismo da Planil
+            </h2>
+
+            <p class="bio__text">
+              O Brasil teve um papel curioso nessa história. Em <strong>1972</strong>, o país
+              recebeu o console de forma quase simultânea ao lançamento
+              americano, através da empresa <strong>Planil</strong>, localizada no Rio de
+              Janeiro. 
+            </p>
+              <ul class="destaqueTexto">
+                    <li class="destaqueTexto__item"><span class="destaqueTexto__label">Importação e Montagem:</span> A Planil importava os componentes e montava o console em solo brasileiro.</li>
+                    <li class="destaqueTexto__item"><span class="destaqueTexto__label">Adaptação:</span> O manual e as caixas foram traduzidos, tornando-o o primeiro videogame comercializado oficialmente no Brasil.</li>
+                    <li class="destaqueTexto__item"><span class="destaqueTexto__label">Curiosidade:</span> Como o mercado era de nicho e o custo era elevado, o Odyssey da Planil é hoje um item de colecionador extremamente raro, muitas vezes mais difícil de encontrar do que a versão original americana.</li>
+                </ul>
+            
+            <!-- Parte 4 -->
+              <h2 class="mt-4">4. O Legado e a Briga Judicial com a Atari</h2>
+          <section class="bio">
+           
+             <p class="bio__text">
+              O jogo de "tênis" do Odyssey serviu de inspiração direta para
+              Nolan Bushnell criar o <strong>Pong</strong>, da Atari. Isso resultou em um dos
+              processos judiciais mais famosos da história da tecnologia. A
+              Magnavox venceu, provando que Ralph Baer detinha a patente
+              original da interatividade em telas de vídeo, o que obrigou a
+              Atari (e diversas outras empresas subsequentes) a pagarem
+              royalties por anos. <strong>Resumo:</strong> O Magnavox Odyssey provou que o
+              entretenimento doméstico poderia ser ativo. Sem a teimosia de Baer
+              e a aposta da Magnavox (e da Planil no Brasil), a indústria de
+              bilhões de dólares que conhecemos hoje poderia ter demorado
+              décadas a mais para nascer.
+            </p>
+            <div class="bio__container-img">
+                <img
+                  class="bio__img"
+                  src="../img/Signed_Pong_Cabinet.jpg"
+                  alt="Foto do Arcade Pong da Atari"
+                />
+                <strong>Acade Pong da Atari</strong>
+              </div>
+        </article>
+   <h2 class="mt-4">5. Conheça o Odyssey primeiro video game comercial.</h2>
+         
+          <p class="bio__text">
+              Este console é de minha coleção particular, uma versão nacionalizada pela Planil do Rio de Janeiro. Não existem muitas informações sobre este aparelho lançado no Brasil.
+          </p>
+
+       <!-- Container do Vídeo Responsivo -->
+    <div class="ratio ratio-16x9 shadow-sm">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/YKxQZOxmHV0?si=zpExWkMbqNG9dW5m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+         
+          <!-- Botão Voltar -->
+          <div class="mt-5">
+            <a href="../index.html" class="btn btn-outline-dark"
+              >← Voltar para a Home</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+
+<footer class="bg-dark text-white text-center py-4 mt-auto">
+    <div class="container">
+        <p>&copy; 2026 Portal de Noticias. Todos os direitos reservados.</p>
+        <div class="redes-sociais">
+            <a href="https://www.instagram.com/" class="text-white mx-2">Instagram</a>
+            <a href="https://www.youtube.com/" class="text-white mx-2">Youtube</a>
+            <a href="https://www.linkedin.com/feed/" class="text-white mx-2">LinkedIn</a>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
