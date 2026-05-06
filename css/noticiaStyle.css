@@ -18,7 +18,8 @@
 
 /* Elemento do texto */
 .bio__text {
-  margin: 0;               /* Remove margens padrão que podem desalinhá-lo */
+  margin: 0;              
+  text-align: justify;
 }
 /* Bloco da lista */
 .destaqueTexto {
