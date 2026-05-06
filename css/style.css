@@ -24,3 +24,8 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
     color: white !important; /* Garante que o texto seja branco */
 }
+/* Limita a altura do carrossel */
+.carousel-inner img {
+    height: 400px; /* Ajuste para a altura que você desejar */
+    object-fit: cover; /* Faz a imagem cortar as sobras sem distorcer */
+}
