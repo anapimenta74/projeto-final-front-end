@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: large;
+  font-family: "JetBrains Mono", monospace;
+  display: flex;
+  justify-content: center;
+  background-color:#CCEEFF;
+}
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6); /* Fundo preto com 60% de transparência */
+    border-radius: 10px;           /* Arredonda os cantos */
+    padding: 15px;                 /* Dá um respiro para o texto */
+    bottom: 20px;                  /* Garante que não cole no rodapé */
+}
+.carousel-caption h5, .carousel-caption p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    color: white !important; /* Garante que o texto seja branco */
+}
+/* Limita a altura do carrossel */
+.carousel-inner img {
+    height: 400px; /* Ajuste para a altura que você desejar */
+    object-fit: cover; /* Faz a imagem cortar as sobras sem distorcer */
+}
