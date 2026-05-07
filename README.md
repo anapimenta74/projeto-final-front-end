@@ -41,7 +41,7 @@ Link: https://portalnoticiaspetropolis.netlify.app/
   * Games (Atari)
   * Música
   * Cinema
-  * População
+  * Sociedade
 * 📱 Layout responsivo com Bootstrap
 * 🧾 Formulário com validação básica em JavaScript
 * 🎨 Estilização com CSS
@@ -108,22 +108,30 @@ Abra o arquivo `index.html` diretamente no navegador.
 ```
 ├── index.html
 ├── pages/
-│   ├── ia.html
-│   ├── atari.html
-│   ├── musica.html
-│   ├── cinema.html
-│   └── populacao.html
+│   ├── about.html
+│   ├── contact.html
+│   ├── artigoKevin.html
+│   ├── artigoJuliano.html
+│   ├── artigoLuiz.html
+│   ├── artigoDanielle.html
+│   └── artigoAna.html
 │
 ├── css/
 │   ├── bootstrap-grid.min.css
+│   ├── bootstrap.min.css
+│   ├── card.css
+│   ├── meuStyle.css
+│   ├── music.css
+│   ├── noticiaStyle.css
+│   ├── sectionHeader.css
 │   └── style.css
 │
 ├── js/
-│   └── script.js
+│   ├── bootstrap.js
+│   ├── script.js
+│   └── scriptContact.js
 │
-├── assets/
-│   ├── images/
-│   └── icons/
+├── img/*
 │
 └── README.md
 ```
